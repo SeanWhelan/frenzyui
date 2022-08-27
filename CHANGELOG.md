@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/SeanWhelan/frenzyui/compare/v0.0.11...v0.0.12) (2022-08-27)
+
+
+### Bug Fixes
+
+* fix eslint errors ([090096f](https://github.com/SeanWhelan/frenzyui/commit/090096f6ed49473f42378a8e01ac503e3f485635))
+
 ### [0.0.11](https://github.com/SeanWhelan/frenzyui/compare/v0.0.10...v0.0.11) (2022-08-27)
 
 
