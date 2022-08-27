@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/SeanWhelan/frenzyui/compare/v0.0.10...v0.0.11) (2022-08-27)
+
+
+### Bug Fixes
+
+* fixes ([c37489a](https://github.com/SeanWhelan/frenzyui/commit/c37489accaffdc05251a996a81d7cc00a60a870c))
+
 ### [0.0.10](https://github.com/SeanWhelan/frenzyui/compare/v0.0.9...v0.0.10) (2022-08-27)
 
 
