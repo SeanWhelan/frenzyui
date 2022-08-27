@@ -8,7 +8,6 @@ export const Button = ({
   variant = 'secondary',
   ...props
 }) => {
-  console.log(styles.primary)
   return (
     <button
       type='button'
