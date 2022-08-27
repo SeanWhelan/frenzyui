@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/SeanWhelan/frenzyui/compare/v0.0.15...v0.0.16) (2022-08-27)
+
+
+### Bug Fixes
+
+* change package.json privacy ([4617820](https://github.com/SeanWhelan/frenzyui/commit/4617820f49fa87616b6c8c4160665f7a14c62c47))
+
 ### [0.0.15](https://github.com/SeanWhelan/frenzyui/compare/v0.0.14...v0.0.15) (2022-08-27)
 
 
