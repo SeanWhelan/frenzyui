@@ -1,5 +1,5 @@
 {
-  "name": "frenzy-example",
+  "name": "frenzyui-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,7 +10,7 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
-    "frenzy": "link:..",
+    "frenzyui": "link:..",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts"

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Button, Input } from 'frenzy'
-import 'frenzy/dist/index.css'
+import { Button, Input } from 'frenzyui'
+import 'frenzyui/dist/index.css'
 
 const App = () => {
   return (

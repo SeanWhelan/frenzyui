@@ -1,10 +1,10 @@
 {
-  "name": "frenzy",
+  "name": "frenzyui",
   "version": "0.0.9",
   "description": "Made with create-react-library",
   "author": "SeanWhelan",
   "license": "MIT",
-  "repository": "SeanWhelan/frenzy",
+  "repository": "SeanWhelan/frenzyui",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
