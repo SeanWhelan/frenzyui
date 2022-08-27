@@ -1,13 +1,13 @@
-# swui
+# seanwui
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/swui.svg)](https://www.npmjs.com/package/swui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/seanwui.svg)](https://www.npmjs.com/package/seanwui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save swui
+npm install --save seanwui
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save swui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'swui'
-import 'swui/dist/index.css'
+import MyComponent from 'seanwui'
+import 'seanwui/dist/index.css'
 
 class Example extends Component {
   render() {

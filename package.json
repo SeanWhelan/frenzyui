@@ -1,10 +1,10 @@
 {
-  "name": "swui",
+  "name": "seanwui",
   "version": "0.0.2",
   "description": "Made with create-react-library",
   "author": "SeanWhelan",
   "license": "MIT",
-  "repository": "SeanWhelan/swui",
+  "repository": "SeanWhelan/seanwui",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

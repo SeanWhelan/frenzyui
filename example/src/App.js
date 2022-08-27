@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { ExampleComponent } from 'swui'
-import { Button } from 'swui'
-import 'swui/dist/index.css'
+import { ExampleComponent } from 'seanwui'
+import { Button } from 'seanwui'
+import 'seanwui/dist/index.css'
 
 const App = () => {
   return (
