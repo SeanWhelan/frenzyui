@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/SeanWhelan/seanwui/compare/v0.0.4...v0.0.5) (2022-08-27)
+
+
+### Bug Fixes
+
+* fix unit tests ([efc1469](https://github.com/SeanWhelan/seanwui/commit/efc1469ee9d9198d6924892c318fd125bdfa4f00))
+
 ### [0.0.4](https://github.com/SeanWhelan/seanwui/compare/v0.0.3...v0.0.4) (2022-08-27)
 
 
