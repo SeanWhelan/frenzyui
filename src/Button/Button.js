@@ -6,11 +6,12 @@ export const Button = ({
   backgroundColor,
   children,
   variant = 'secondary',
+  type = 'button',
   ...props
 }) => {
   return (
     <button
-      type='button'
+      type={type}
       className={[styles.button, styles[variant], styles[size]].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
