@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Button size='small'>Click me!</Button>
-      <Input type='text' value='Hello' />
+      <Input type='text' value='Hellos' />
     </>
   )
 }
