@@ -10,7 +10,7 @@ export const Input = ({
   backgroundColor,
   ...props
 }) => {
-  if (type == 'button') {
+  if (type === 'button') {
     return (
       <input
         type='button'
