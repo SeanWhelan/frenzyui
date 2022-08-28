@@ -11,7 +11,7 @@ export default function Home() {
       <div className='center'>
         <Blob style={{ height: '200px' }} />
         <h1>FrenzyUI</h1>
-        <p>The easiest way to build beautiful user interfaces.</p>
+        <p>The UI library that will make your app go wild.</p>
         <div className='h-stack'>
           <Link to='/components'>
             <Button
