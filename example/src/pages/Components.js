@@ -35,7 +35,7 @@ export default function Components() {
       <h1>Inputs</h1>
       <Input type='text' placeholder="I'm a text input" mb='20px' />
       <Input type='password' placeholder="I'm a password input" mb='20px' />
-      <Input type='number' placeholder="I'm a number input" mb='20px' />
+      <Input type='number' placeholder="I'm a password input" mb='20px' />
       <Input type='text' placeholder="I'm a disabled input" disabled />
     </Container>
   )
