@@ -1,4 +1,4 @@
-# frenzyui
+# FrenzyUI
 
 > Made with create-react-library
 
