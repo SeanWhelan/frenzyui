@@ -4,12 +4,19 @@
   border: 0;
   border-radius: 7px;
   color: rgba(0, 0, 0, 0.7);
-  outline: 1px solid #d5dbdd;
+  border: 2px solid #d5dbdd;
   transition: 0.1s border ease-in-out;
+  outline: none;
+  display: block;
+}
+
+.input:disabled {
+  background: #d5dbdd;
+  cursor: not-allowed;
 }
 
 .input:focus {
-  outline: 2px solid #0069ff;
+  border-color: #0069ff;
 }
 
 .small {

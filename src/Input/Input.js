@@ -8,8 +8,28 @@ export const Input = ({
   variant = 'secondary',
   size,
   backgroundColor,
+  mt,
+  mb,
+  ml,
+  mr,
+  pt,
+  pb,
+  pl,
+  pr,
   ...props
 }) => {
+  const propStyles = {
+    marginTop: mt,
+    marginBottom: mb,
+    marginLeft: ml,
+    marginRight: mr,
+    paddingTop: pt,
+    paddingBottom: pb,
+    paddingLeft: pl,
+    paddingRight: pr,
+    backgroundColor
+  }
+
   if (type === 'button') {
     return (
       <input
@@ -28,7 +48,7 @@ export const Input = ({
       <input
         type={type}
         className={[styles.input, styles[size]].join(' ')}
-        style={backgroundColor && { backgroundColor }}
+        style={{ ...propStyles }}
         {...props}
       />
     )
