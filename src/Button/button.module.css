@@ -34,6 +34,19 @@
   background-color: #0056cf;
 }
 
+.alternative {
+  background-color: #ff007f;
+  color: rgba(255, 255, 255, 1);
+}
+
+.alternative:hover {
+  background-color: #e60072;
+}
+
+.alternative:active {
+  background-color: #cf0067;
+}
+
 .small {
   font-size: 12px;
   font-weight: bold;

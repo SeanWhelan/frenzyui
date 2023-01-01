@@ -15,12 +15,16 @@ export default function Components() {
         Primary
       </Button>
       <Button size='small'>Secondary</Button>
+      <Button size='small' variant='alternative'>
+        Alternative
+      </Button>
       <SyntaxHighlighter language='jsx' style={dracula}>
         {smallBtnPrimary}
       </SyntaxHighlighter>
       <div style={{ height: '10px' }}></div>
       <Button variant='primary'>Primary</Button>
       <Button>Secondary</Button>
+      <Button variant='alternative'>Alternative</Button>
       <SyntaxHighlighter language='jsx' style={dracula}>
         {btn}
       </SyntaxHighlighter>
@@ -29,6 +33,9 @@ export default function Components() {
         Primary
       </Button>
       <Button size='large'>Secondary</Button>
+      <Button size='large' variant='alternative'>
+        Secondary
+      </Button>
       <SyntaxHighlighter language='jsx' style={dracula}>
         {btnLarge}
       </SyntaxHighlighter>
@@ -37,6 +44,17 @@ export default function Components() {
       <Input type='password' placeholder="I'm a password input" mb='20px' />
       <Input type='number' placeholder="I'm a number input" mb='20px' />
       <Input type='text' placeholder="I'm a disabled input" disabled />
+      <h1>Containers</h1>
+      <Container>
+        <h4>I&apos;m in a container</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quibusdam
+          consequuntur quidem voluptatum quas quos. Quisquam, quae. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quibusdam
+          consequuntur quidem voluptatum quas quos. Quisquam, quae.
+        </p>
+      </Container>
     </Container>
   )
 }
