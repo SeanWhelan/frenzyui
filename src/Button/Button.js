@@ -7,13 +7,33 @@ export const Button = ({
   children,
   variant = 'secondary',
   type = 'button',
+  mt,
+  mb,
+  ml,
+  mr,
+  pt,
+  pb,
+  pl,
+  pr,
   ...props
 }) => {
+  const propStyles = {
+    marginTop: mt,
+    marginBottom: mb,
+    marginLeft: ml,
+    marginRight: mr,
+    paddingTop: pt,
+    paddingBottom: pb,
+    paddingLeft: pl,
+    paddingRight: pr,
+    backgroundColor
+  }
+
   return (
     <button
       type={type}
       className={[styles.button, styles[variant], styles[size]].join(' ')}
-      style={backgroundColor && { backgroundColor }}
+      style={{ ...propStyles }}
       {...props}
     >
       {children}

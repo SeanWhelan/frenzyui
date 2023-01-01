@@ -11,10 +11,12 @@ export default function Components() {
   return (
     <Container>
       <h1>Buttons</h1>
-      <Button size='small' variant='primary'>
+      <Button size='small' variant='primary' mr='5px'>
         Primary
       </Button>
-      <Button size='small'>Secondary</Button>
+      <Button size='small' mr='5px'>
+        Secondary
+      </Button>
       <Button size='small' variant='alternative'>
         Alternative
       </Button>
@@ -22,17 +24,21 @@ export default function Components() {
         {smallBtnPrimary}
       </SyntaxHighlighter>
       <div style={{ height: '10px' }}></div>
-      <Button variant='primary'>Primary</Button>
-      <Button>Secondary</Button>
+      <Button variant='primary' mr='10px'>
+        Primary
+      </Button>
+      <Button mr='10px'>Secondary</Button>
       <Button variant='alternative'>Alternative</Button>
       <SyntaxHighlighter language='jsx' style={dracula}>
         {btn}
       </SyntaxHighlighter>
       <div style={{ height: '10px' }}></div>
-      <Button size='large' variant='primary'>
+      <Button size='large' variant='primary' mr='15px'>
         Primary
       </Button>
-      <Button size='large'>Secondary</Button>
+      <Button size='large' mr='15px'>
+        Secondary
+      </Button>
       <Button size='large' variant='alternative'>
         Secondary
       </Button>
@@ -40,9 +46,9 @@ export default function Components() {
         {btnLarge}
       </SyntaxHighlighter>
       <h1>Inputs</h1>
-      <Input type='text' placeholder="I'm a text input" mb='20px' />
-      <Input type='password' placeholder="I'm a password input" mb='20px' />
-      <Input type='number' placeholder="I'm a number input" mb='20px' />
+      <Input type='text' placeholder="I'm a text input" mb='10px' />
+      <Input type='password' placeholder="I'm a password input" mb='10px' />
+      <Input type='number' placeholder="I'm a number input" mb='10px' />
       <Input type='text' placeholder="I'm a disabled input" disabled />
       <h1>Containers</h1>
       <Container>
